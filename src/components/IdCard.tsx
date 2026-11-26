@@ -47,7 +47,7 @@ export function IdCard() {
         onPointerMove={onMove}
         onPointerLeave={onLeave}
         style={{ rotateX, rotateY, transformStyle: "preserve-3d" }}
-        className="relative overflow-hidden rounded-[28px] border border-bone/10 bg-[#121119] shadow-[0_30px_80px_-30px] shadow-plum/60"
+        className="relative overflow-hidden rounded-[28px] border border-bone/10 bg-card shadow-[0_30px_80px_-30px] shadow-plum/60"
       >
         {/* Faixa superior em degradê */}
         <div className="sunset flex items-center justify-between px-5 py-2.5 font-mono text-[11px] font-medium tracking-[0.2em] text-ink uppercase">
@@ -107,7 +107,7 @@ export function IdCard() {
         <motion.div aria-hidden className="pointer-events-none absolute inset-0" style={{ background: glare }} />
         <div
           aria-hidden
-          className="pointer-events-none absolute inset-0 bg-[linear-gradient(115deg,transparent_35%,rgb(227_153_134/0.08)_45%,rgb(130_96_146/0.1)_52%,transparent_62%)]"
+          className="pointer-events-none absolute inset-0 bg-[linear-gradient(115deg,transparent_35%,color-mix(in_oklab,var(--color-peach)_8%,transparent)_45%,color-mix(in_oklab,var(--color-plum)_10%,transparent)_52%,transparent_62%)]"
         />
       </motion.div>
     </motion.div>

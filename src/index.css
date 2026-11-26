@@ -9,6 +9,11 @@
   --color-dusk: #64759d;
   --color-plum: #826092;
   --color-peach: #e39986;
+  --color-card: #121119;
+  /* Tons claros usados nos textos em degradê */
+  --color-dusk-light: #8a9cc9;
+  --color-plum-light: #a582b8;
+  --color-peach-light: #f0ad9b;
 
   --font-display: "Clash Display", ui-sans-serif, system-ui, sans-serif;
   --font-sans: "Satoshi", ui-sans-serif, system-ui, sans-serif;
@@ -32,18 +37,31 @@
 }
 
 @utility sunset {
-  background-image: linear-gradient(120deg, #64759d 0%, #826092 50%, #e39986 100%);
+  background-image: linear-gradient(120deg, var(--color-dusk) 0%, var(--color-plum) 50%, var(--color-peach) 100%);
 }
 
 @utility sunset-text {
-  background-image: linear-gradient(95deg, #8a9cc9 0%, #a582b8 45%, #f0ad9b 100%);
+  background-image: linear-gradient(
+    95deg,
+    var(--color-dusk-light) 0%,
+    var(--color-plum-light) 45%,
+    var(--color-peach-light) 100%
+  );
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 
 @utility sunset-flow {
-  background: linear-gradient(90deg, #64759d, #826092, #e39986, #826092, #64759d) 0 0 / 300% 100%;
+  background: linear-gradient(
+      90deg,
+      var(--color-dusk),
+      var(--color-plum),
+      var(--color-peach),
+      var(--color-plum),
+      var(--color-dusk)
+    )
+    0 0 / 300% 100%;
   animation: flow 4s linear infinite;
 }
 
