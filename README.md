@@ -39,4 +39,4 @@ Em vez do visual padrão de lista de botões, o perfil vira um cartão de identi
 
 ## Licença
 
-Distribuído sob a licença MIT com a [Commons Clause](https://commonsclause.com/): você pode usar, estudar e modificar o código, mas **não é permitido vender** este software nem produtos ou serviços baseados nele. Veja [LICENSE](LICENSE).
+Distribuído sob a licença MIT. Veja [LICENSE](LICENSE).
