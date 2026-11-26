@@ -69,11 +69,10 @@ Exemplo de `profile.json`:
 }
 ```
 
-Como a pasta não vai para o Git, publique pela CLI da Vercel a partir da sua máquina:
+Como a pasta não vai para o Git, publique pela CLI da Vercel a partir da sua máquina (o `.vercelignore` garante que `personal/` seja enviada no deploy):
 
 ```bash
-npx vercel build --prod
-npx vercel deploy --prebuilt --prod
+npx vercel --prod
 ```
 
 ## Licença
