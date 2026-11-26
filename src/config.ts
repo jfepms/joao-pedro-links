@@ -22,9 +22,6 @@ export interface Profile {
   handle: string;
   /** Endereço público do site (usado no compartilhar). */
   url: string;
-  /** Frase abaixo do cartão — `bioHighlight` aparece em itálico com degradê. */
-  bio: string;
-  bioHighlight: string;
   links: LinkItem[];
 }
 
@@ -33,8 +30,6 @@ const example: Profile = {
   initials: "SN",
   handle: "@seuusuario",
   url: "https://seusite.com",
-  bio: "Todos os meus links,",
-  bioHighlight: "em um só lugar.",
   links: [
     { title: "Portfólio", description: "seusite.com", href: "https://seusite.com", icon: "site", featured: true },
     { title: "GitHub", description: "@seuusuario", href: "https://github.com/seuusuario", icon: "github" },

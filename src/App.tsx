@@ -1,5 +1,4 @@
-import { motion } from "motion/react";
-import { links, profile } from "./config";
+import { links } from "./config";
 import { IdCard } from "./components/IdCard";
 import { LinkRow } from "./components/LinkRow";
 import { ShareButton } from "./components/ShareButton";
@@ -25,16 +24,6 @@ export default function App() {
 
       <main className="mx-auto flex w-full max-w-[480px] flex-1 flex-col justify-center gap-8 px-4 pt-20 pb-12">
         <IdCard />
-
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.6, delay: 0.25 }}
-          className="text-center text-lg text-bone/70"
-        >
-          {profile.bio}{" "}
-          <em className="sunset-text pr-1 font-serif text-[1.4em] leading-none">{profile.bioHighlight}</em>
-        </motion.p>
 
         <nav aria-label="Links">
           <ul className="flex flex-col gap-1">

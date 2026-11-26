@@ -80,27 +80,20 @@ export function IdCard() {
               <dt className="font-mono text-[10px] tracking-[0.2em] text-bone/40 uppercase">Nome</dt>
               <dd className="truncate font-display text-[26px] leading-tight font-semibold">{profile.name}</dd>
             </div>
-            <div className="flex gap-6">
-              <div>
-                <dt className="font-mono text-[10px] tracking-[0.2em] text-bone/40 uppercase">Usuário</dt>
-                <dd className="font-mono text-sm text-bone/85">{profile.handle}</dd>
-              </div>
-              <div>
-                <dt className="font-mono text-[10px] tracking-[0.2em] text-bone/40 uppercase">Links</dt>
-                <dd className="font-mono text-sm text-bone/85">{String(profile.links.length).padStart(2, "0")}</dd>
-              </div>
+            <div>
+              <dt className="font-mono text-[10px] tracking-[0.2em] text-bone/40 uppercase">Usuário</dt>
+              <dd className="font-mono text-sm text-bone/85">{profile.handle}</dd>
             </div>
           </dl>
         </div>
 
         {/* Rodapé: código de barras */}
-        <div className="flex items-end justify-between gap-4 border-t border-dashed border-bone/10 px-5 pt-3 pb-4">
+        <div className="border-t border-dashed border-bone/10 px-5 pt-3 pb-4">
           <div aria-hidden className="flex h-8 items-stretch gap-[2px] opacity-70">
             {barcode(profile.handle).map((w, i) => (
               <span key={i} className="bg-bone" style={{ width: w }} />
             ))}
           </div>
-          <span className="font-serif text-2xl leading-none text-bone/80 italic">Vice&nbsp;Links</span>
         </div>
 
         {/* Reflexo holográfico */}

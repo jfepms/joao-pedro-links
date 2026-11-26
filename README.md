@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src=".github/screenshot.png" alt="Prévia da página de links" width="100%" />
+<img src=".github/preview-v3.png" alt="Prévia da página de links" width="100%" />
 
 <h1>Vice Links</h1>
 
