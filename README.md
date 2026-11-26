@@ -2,7 +2,7 @@
 
 <img src=".github/preview-v3.png" alt="Prévia da página de links" width="100%" />
 
-<h1>Vice Links</h1>
+<h1>Dev Links</h1>
 
 <p>Página de links para a bio, com visual de cartão de identificação em clima de pôr do sol</p>
 
