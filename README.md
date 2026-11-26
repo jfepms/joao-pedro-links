@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src=".github/banner.png" alt="Prévia da página de links" width="100%" />
+<img src=".github/screenshot.png" alt="Prévia da página de links" width="100%" />
 
 <h1>Vice Links</h1>
 
@@ -21,7 +21,6 @@ Em vez do visual padrão de lista de botões, o perfil vira um cartão de identi
 - **Cartão de identificação** com foto, código de barras gerado a partir do @ e reflexo holográfico
 - **Inclinação 3D** do cartão acompanhando o mouse no desktop
 - **Links numerados** com preenchimento em degradê ao passar o mouse
-- **Faixa animada** com nome e @ rolando no rodapé
 - **Botão de compartilhar** que usa o menu nativo do celular ou copia o link no desktop
 - **Textura granulada** e brilhos de fundo no estilo pôster
 - **Acessibilidade**: respeita a preferência de reduzir animações do sistema

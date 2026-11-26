@@ -2,7 +2,6 @@ import { motion } from "motion/react";
 import { links, profile } from "./config";
 import { IdCard } from "./components/IdCard";
 import { LinkRow } from "./components/LinkRow";
-import { Marquee } from "./components/Marquee";
 import { ShareButton } from "./components/ShareButton";
 
 // Assinatura opcional do rodapé, carregada de personal/Signature.tsx se existir.
@@ -46,8 +45,7 @@ export default function App() {
         </nav>
       </main>
 
-      <footer>
-        <Marquee />
+      <footer className="border-t border-bone/10">
         {Signature ? <Signature /> : <div className="py-5" />}
       </footer>
     </div>
